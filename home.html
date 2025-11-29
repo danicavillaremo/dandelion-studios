@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dandelion Studios · Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="home.html">Dandelion Studios</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link contact-btn" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <div class="hero-content">
+        <span class="hero-badge">Dandelion Studios · Creative Studio</span>
+        <h1 class="hero-title">
+          Design that feels <span class="accent-green">light</span> but lands with impact.
+        </h1>
+        <p class="hero-tagline">
+          Where ideas bloom into visuals. We craft gentle, memorable brands for businesses ready to stand out without shouting.
+        </p>
+        <div class="d-flex flex-wrap gap-3">
+          <button class="btn btn-dandelion" data-scroll-to="#contact">Start a Project</button>
+          <a href="services.html" class="btn btn-outline-dandelion">View Our Services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-md-6">
+          <h2 class="section-title">Soft, Human-Centered Design</h2>
+          <p class="mb-3">
+            Dandelion Studios is a boutique creative studio focused on soft, human-centered visual design.
+            We help brands express their personality through color, typography, and thoughtful visuals that stay with people.
+          </p>
+          <p class="mb-0">
+            Curious about how we work and what we value?
+          </p>
+          <a href="about.html" class="btn btn-outline-dandelion mt-3">Learn More About Us</a>
+        </div>
+        <div class="col-md-6">
+          <div class="p-4 rounded-4 gradient-card">
+            <p class="mb-0 fw-semibold">
+              “Design should feel like a breath of fresh air: light, playful, and intentional. That’s the experience we create for every client.”
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-section">
+    <div class="container">
+      <div class="text-center mb-4">
+        <h2 class="section-title">What We Do</h2>
+        <p class="section-subtitle">
+          From brand-new businesses to gentle refreshes, we help your visual identity feel cohesive and kind.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card service-card h-100">
+            <div class="service-img-wrapper">
+              <img src="graphic design card.png"
+                   class="card-img-top"
+                   alt="Graphic Design">
+            </div>
+            <div class="service-card-body">
+              <h5 class="service-title">Graphic Design</h5>
+              <p class="service-text">
+                Social media graphics, campaign visuals, and more; everything tailored to look soft but strategic.
+              </p>
+              <a href="services.html#graphic-design" class="btn btn-dandelion">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card service-card h-100">
+            <div class="service-img-wrapper">
+              <img src="logo design card.png"
+                   class="card-img-top"
+                   alt="Logo Design">
+            </div>
+            <div class="service-card-body">
+              <h5 class="service-title">Logo Design</h5>
+              <p class="service-text">
+                Signature logos with personality and clarity; built to shine on screens, print, and signage.
+              </p>
+              <a href="services.html#logo-design" class="btn btn-dandelion">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card service-card h-100">
+            <div class="service-img-wrapper">
+              <img src="brand design card.png"
+                   class="card-img-top"
+                   alt="Brand Design">
+            </div>
+            <div class="service-card-body">
+              <h5 class="service-title">Brand Design</h5>
+              <p class="service-text">
+                Complete visual identities, from color and type to patterns and guidelines, that feel like you.
+              </p>
+              <a href="services.html#brand-design" class="btn btn-dandelion">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section py-5">
+    <div class="container">
+      <div class="text-center mb-4">
+        <h2 class="section-title">Let’s Start Something Soft & Bold</h2>
+        <p class="section-subtitle">
+          Share a few details about your project, and we’ll be in touch with next steps and timelines.
+        </p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+          <form id="contactForm" novalidate>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name *</label>
+              <input type="text" id="name" name="name" class="form-control" required>
+              <div class="invalid-feedback">Please enter your name.</div>
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email *</label>
+              <input type="email" id="email" name="email" class="form-control" required>
+              <div class="invalid-feedback">Please enter a valid email address.</div>
+            </div>
+
+            <div class="mb-3">
+              <label for="projectType" class="form-label">Project Type</label>
+              <select id="projectType" name="projectType" class="form-select">
+                <option value="">Select a project type</option>
+                <option value="graphic">Graphic Design</option>
+                <option value="logo">Logo Design</option>
+                <option value="brand">Brand Design</option>
+                <option value="other">Other / Not Sure Yet</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label for="message" class="form-label">Tell us about your project *</label>
+              <textarea id="message" name="message" rows="4" class="form-control" required></textarea>
+              <div class="invalid-feedback">Please share a few details about your project.</div>
+            </div>
+
+            <div class="d-grid d-sm-flex gap-3 align-items-center">
+              <button type="submit" class="btn btn-dandelion flex-shrink-0">
+                Send Message
+              </button>
+              <p id="formStatus" class="mb-0 small text-muted"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="script.js"></script>
+
+<footer class="footer-section py-5">
+  <div class="container">
+
+    <div class="row align-items-start">
+      
+      <div class="col-md-6 footer-left">
+        <h5 class="footer-title">Dandelion Studios</h5>
+        <p class="mb-1">
+          <a href="mailto:info@dandelionstudios.com" class="footer-email">
+            info@dandelionstudios.com
+          </a>
+        </p>
+      </div>
+
+      <div class="col-md-6 footer-right">
+        <ul class="footer-nav">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-icons-wrapper text-center mt-4">
+      <div class="footer-icons d-inline-flex gap-3">
+        <span class="footer-icon"><i class="bi bi-facebook"></i></span>
+        <span class="footer-icon"><i class="bi bi-instagram"></i></span>
+        <span class="footer-icon"><i class="bi bi-linkedin"></i></span>
+      </div>
+    </div>
+
+    <div class="text-center mt-4 small text-muted">
+      © <span id="year"></span> Dandelion Studios. All rights reserved.
+    </div>
+  </div>
+</footer>
+</body>
+</html>
